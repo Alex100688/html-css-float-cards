@@ -7,7 +7,7 @@ body{
     font-family: 'Fredoka One', cursive;
 }
 .container{
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
 }
 section > h1{
@@ -25,34 +25,47 @@ h1,p{
     clear: both;
 }
 .box{
-    width: 100%;
+    width: 1200px;
     margin-top: 60px;
 }
  
  
  .col-box{
-    width: calc(100% / 3 - 60px);
-    margin: 0px 30px;
+    width: calc(1200px / 3 - 30px);
+    margin: 30px 15px;
     float: left;
     background-color: #0f0e17;
+    box-shadow: 10px 5px 5px 5px #cececd ;
     
  }
+ 
  img{
     width: 100px;
     height: 100px;
     float:left ;
-    display: block;
- }
- h3,small{
-    color: white;
-    
- }
- h3{
-    padding-left: 20px;
- }
+   
 
- 
- small{
-    font-size: 18px;
+ }
+ .information{
+    float: left;
+    width: calc(100% - 100px);
+    padding-top: 10px;
+    padding-left: 18px;
+    line-height: 30px;
+    
+
+ }
+h3,small{
+    color: white;
+
     
 }
+small{
+    font-size: 18px;
+
+}
+.email{
+    color: #6ecbe3;
+    text-decoration: none;
+}
+ 
